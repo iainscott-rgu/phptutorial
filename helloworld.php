@@ -38,7 +38,27 @@
 
     */
 
-    $myage = 25;
+    $myage = 41;
+    $myname = "Iain Scott";
+    $specs = "He can buy specs";
+    $mugs = "He can buy mugs";
+    $rolls = "He can buy rolls";
+
+    print $myname. " is ". $myage. "years old";
+
+    if($myage > 16){
+
+        echo $specs;
+    }
+    if($myage > 18){
+
+        echo $mugs;
+    }
+
+    if($myage > 21){
+
+        echo $rolls;
+    }
 
     ?>
 
@@ -54,11 +74,11 @@
     <li>Buy sausage rolls if you are over 21</li>
     </ul>
 
-
-
-
 </header>
 <body>
+
+
+
 
 
 <main>
