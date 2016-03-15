@@ -49,9 +49,9 @@
     <h1>Aberdeen is	the	home of	specs, mugs	and	sausage	rolls.</h1>
 
     <p>You are only	allowed	to:</p>
-    <ul><li>Buy specs if	you	are	over 16</li>
+    <ul><li>Buy specs if you are over 16</li>
     <li>Buy mugs if	you	are	over 18</li>
-    <li>Buy sausage rolls if	you	are	over 21</li>
+    <li>Buy sausage rolls if you are over 21</li>
     </ul>
 
 
