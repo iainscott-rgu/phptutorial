@@ -12,9 +12,9 @@ $modules = array('a' => 'big time');
 
 echo " Yeh {$modules['a']}!!!";
 
-$name = "Fanny Pants";
+$name = "<p>Fanny Pants";
 $age = 10000;
-$str = " years old!";
+$str = " years old!</p>";
 
 echo $name. " is ";
 echo $age;
