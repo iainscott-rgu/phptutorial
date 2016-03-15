@@ -8,9 +8,9 @@ echo $text;
 echo $sp;
 echo $moretext;
 
-$modules = array("My First Array 1", "My First Array 2", "My First Array 3","Ok... enough of the Arrays");
+$modules = array("a" => "big", "b" => "time");
 
-print_r($modules);
+echo "Yeh {$modules['a']['b']}";
 
 
 
