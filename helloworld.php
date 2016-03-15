@@ -1,68 +1,6 @@
 <html>
 <head>
 
-    <?php
-
-    /*
-
-    $text = "Hello World";
-    $sp = " ";
-    $moretext = "You Suck!";
-
-    echo $text;
-    echo $sp;
-    echo $moretext;
-
-    $modules = array('a' => 'big time');
-
-    echo " Yeh {$modules['a']}!!!";
-
-    $name = "<p>Fanny Pants";
-    $age = 10000;
-    $str = " years old!</p>";
-
-    echo $name. " is ";
-    echo $age;
-    echo $str;
-
-
-    if($name == "Dude") {
-
-        print "Hey man, I kow you don't I???";
-    }
-
-    else {
-
-        print "hey screw you man!!!!";
-    }
-
-    */
-
-    $myage = 41;
-    $myname = "Iain Scott";
-    $specs = "He can buy specs";
-    $mugs = "He can buy mugs";
-    $rolls = "He can buy rolls";
-
-    print $myname. " is ". $myage. "years old";
-
-    if($myage > 16){
-
-        echo $specs;
-    }
-    if($myage > 18){
-
-        echo $mugs;
-    }
-
-    if($myage > 21){
-
-        echo $rolls;
-    }
-
-    ?>
-
-
 </head>
 <header>
 
@@ -78,7 +16,31 @@
 <body>
 
 
+<?php
 
+$myage = 41;
+$myname = "Iain Scott";
+$specs = "<p>He can buy specs</p>";
+$mugs = "<p>He can buy mugs</p>";
+$rolls = "<p>He can buy rolls</p>";
+
+print $myname. " is ". $myage. "years old";
+
+if($myage > 16){
+
+    echo $specs;
+}
+if($myage > 18){
+
+    echo $mugs;
+}
+
+if($myage > 21){
+
+    echo $rolls;
+}
+
+?>
 
 
 <main>
