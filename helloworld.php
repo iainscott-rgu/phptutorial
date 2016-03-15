@@ -8,7 +8,7 @@ echo $text;
 echo $sp;
 echo $moretext;
 
-$modules = array("My First Array 1", "My First Array 2", "My First Array 3","Ok... enough of the Arrays");
+$modules = array("My First Array 1", "My First Array 2", "My First Array 3","Ok... enough of the Arrays",);
 
 echo $modules;
 
