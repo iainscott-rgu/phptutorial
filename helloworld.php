@@ -16,7 +16,7 @@ $name = "Fanny Pants";
 $age = 10000;
 $str = " years old!";
 
-echo $name. "is ";
+echo $name. " is ";
 echo $age;
 echo $str;
 
