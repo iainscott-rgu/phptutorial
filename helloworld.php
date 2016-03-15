@@ -21,4 +21,14 @@ echo $age;
 echo $str;
 
 
+if($name == "Dude") {
+
+    print "Hey man, I kow you don't I???";
+}
+
+else {
+
+    print "hey screw you man!!!!";
+}
+
 ?>
