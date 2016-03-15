@@ -8,9 +8,9 @@ echo $text;
 echo $sp;
 echo $moretext;
 
-$modules = array('a' => "big", 'b' => "time");
+$modules = array('a' => 'big', ' ', 'time');
 
-echo "Yeh {$modules['a']['b']}";
+echo "Yeh {$modules['a']}";
 
 
 
