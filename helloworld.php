@@ -10,7 +10,7 @@ echo $moretext;
 
 $modules = array('a' => 'big time');
 
-echo " Yeh {$modules['a']}";
+echo " Yeh {$modules['a']}!!!";
 
 
 
