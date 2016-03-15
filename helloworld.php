@@ -23,6 +23,7 @@ $myname = "Iain Scott";
 $specs = "<p>He can buy specs</p>";
 $mugs = "<p>He can buy mugs</p>";
 $rolls = "<p>He can buy rolls</p>";
+$wantedgood = "mugs";
 
 print $myname. " is ". $myage. "years old";
 
