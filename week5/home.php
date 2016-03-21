@@ -9,7 +9,7 @@
 
 <?php
 $username=$_POST['username'];
-echo $username." is currently logged on";
+echo '$username'." is currently logged on";
 
 
 ?>
