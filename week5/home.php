@@ -1,5 +1,9 @@
 <?php
 session_start();
+
+    $username = $_SESSION['username'];
+    echo $username." is currently logged on";
+
 ?>
 
 <html>
@@ -8,11 +12,7 @@ session_start();
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
 
-    <?php
-    $username = $_SESSION['username'];
-    echo $username." is currently logged on";
 
-    ?>
 
 </head>
 <body>
