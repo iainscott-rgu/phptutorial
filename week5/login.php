@@ -27,6 +27,6 @@ if(mysqli_num_rows($result) == 1)
     echo "Incorrect username or password.";
 }
 
-$username=$_POST['home.php'];
+$username=$_POST["home.php"];
 
 ?>
