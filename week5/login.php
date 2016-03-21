@@ -10,7 +10,7 @@ if(empty($_POST["username"]) || empty($_POST["password"]))
 
     $username=$_POST['username'];
     $password=$_POST['password'];
-    $username=$_POST['home.php'];
+
 }
 
 $sql="SELECT uid FROM users WHERE username='$username' and
@@ -26,5 +26,7 @@ if(mysqli_num_rows($result) == 1)
 {
     echo "Incorrect username or password.";
 }
+
+$username=$_POST['home.php'];
 
 ?>
