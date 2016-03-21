@@ -21,7 +21,12 @@ session_start();
 
 <?php
 
+include("connection.php");
 
+$sql="SELECT ['uid'],['username'] FROM users";
+for($i=1; $i <= ['uid']; $i++){
+    echo $sql;
+}
 
 ?>
 
