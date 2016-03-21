@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 
     <?php
-    $username=$_GET.['user'];
+    $user = $_SESSION['username'];
     echo $user." is currently logged on";
 
     ?>
