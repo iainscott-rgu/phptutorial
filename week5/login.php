@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION['username'] = $username;
 ?>
 
 <?php
@@ -31,7 +32,6 @@ if(mysqli_num_rows($result) == 1)
     echo "Incorrect username or password.";
 }
 
-$_SESSION['username'] = $user;
 ?>
 
 

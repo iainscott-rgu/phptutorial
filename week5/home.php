@@ -9,7 +9,7 @@ session_start();
     <link rel="stylesheet" href="style.css" type="text/css" />
 
     <?php
-    $user = $_SESSION['username'];
+    $username = $_SESSION['username'];
     echo $user." is currently logged on";
 
     ?>
