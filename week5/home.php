@@ -10,7 +10,7 @@ session_start();
 
     <?php
     $username = $_SESSION['username'];
-    echo $user." is currently logged on";
+    echo $username." is currently logged on";
 
     ?>
 
