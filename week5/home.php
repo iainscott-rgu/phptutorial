@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-    $username = $_SESSION['username'];
-    echo $username. " is currently logged on";
+    $user = $_SESSION['username'];
+    echo "<h2>".$user. " is currently logged on</h2>";
 
 ?>
 
