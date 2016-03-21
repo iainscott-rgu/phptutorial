@@ -17,7 +17,7 @@ session_start();
 <body>
 <h1>What the...!!!</h1>
 
-<h2>Let's see who's signed up!!!!</h2>
+<h3>Let's see who's signed up!!!!</h3>
 
 <?php
 
