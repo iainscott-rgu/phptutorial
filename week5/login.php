@@ -28,9 +28,9 @@ if(mysqli_num_rows($result) == 1)
     echo "Incorrect username or password.";
 }
 
-/*
-$_SESSION['username'] = $user;
-*/
+
+$_SESSION['username'] = $username;
+
 
 ?>
 
