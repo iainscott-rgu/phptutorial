@@ -5,7 +5,7 @@
 
        <?PHP
 
-       $provisionedActivities = array("Specs"."Drugs"."Rock and Roll");
+       $provisionedActivities = array("Specs","Drugs","Rock and Roll");
 
 
        foreach($provisionedActivity as $x) {
