@@ -8,7 +8,7 @@
 <h1>Hello</h1>
 
 <?php
-$username=$_POST.'$username';
+$username=$_POST.'username';
 echo $username." is currently logged on";
 
 
