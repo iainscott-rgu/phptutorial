@@ -13,13 +13,13 @@ for($i=1; $i < 30; $i++){
 
     if($i % 3 == 0){
 
-        echo "hugs ";
+        echo "Hugs ";
         $y = 1;
     }
 
     if($i % 4 == 0){
 
-        echo "tugs ";
+        echo "Tugs ";
         $y = 1;
     }
 
