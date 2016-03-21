@@ -24,8 +24,8 @@ session_start();
 include("connection.php");
 
 $sql="SELECT ['uid'],['username'] FROM users";
-for($i=1; $i <= ['uid']; $i++){
-    echo $user;
+for($i=1; $i < ['uid']; $i++){
+    echo ['username'];
 }
 
 ?>
