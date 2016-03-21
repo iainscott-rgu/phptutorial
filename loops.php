@@ -3,7 +3,7 @@
 for($i=1; $i < 30; $i++){
 
     echo "On day". $i."the following items are available:";
-    $y = 1;
+    $y = 0;
 
     if($i % 2 == 0){
 
@@ -21,6 +21,11 @@ for($i=1; $i < 30; $i++){
 
         echo "tugs";
         $y = 1;
+    }
+
+    if ($y != 1){
+
+        echo "NONE";
     }
 
     echo "<p>";
