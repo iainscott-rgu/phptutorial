@@ -8,7 +8,7 @@
        $provisionedActivities = array("Specs","Drugs","Rock and Roll");
 
 
-       foreach($provisionedActivity as $x) {
+       foreach($provisionedActivities as $x) {
            print "<p>$x</p>";
        }
        ?>
