@@ -29,7 +29,7 @@ if(mysqli_num_rows($result) == 1)
 
 ?>
 
-<form method="post" action="home.php">
+<form method="get" action="home.php">
     <input type="hidden" name="username" value="username">
     <input type="submit">
 </form>
