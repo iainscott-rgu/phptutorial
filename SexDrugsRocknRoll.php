@@ -20,12 +20,6 @@ My Web Page...
        }
        ?>");
 
-foreach($provisionedActivities as $x) {
-    print "<p>$x</p>";
-}
-
-?>
-
 </body>
 
 </html>
