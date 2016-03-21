@@ -12,7 +12,7 @@ My Web Page...
 
  <?PHP
 
-       $provisionedActivities = array("Specs","Hugs","Rock and Roll");
+       $provisionedActivities = array("Specs","Hugs","");
 
 
        foreach($provisionedActivities as $x) {
