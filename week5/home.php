@@ -23,15 +23,11 @@ session_start();
 
 include("connection.php");
 
-$sql="SELECT ['uid'] FROM users";
-/*
-for($i=1; $i < ['uid']; $i++){
-    echo ['uid'];
-}
-*/
-foreach($st->fetchAll() as $row) {
-echo $row;
-}
+$sql="SELECT uid FROM users";
+
+$result=mysqli_query($db,$sql);
+
+echo $result;
 
 ?>
 
