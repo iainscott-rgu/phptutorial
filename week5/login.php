@@ -1,9 +1,5 @@
 <?php
 session_start();
-$_SESSION['username'] = $user;
-?>
-
-<?php
 
 include("connection.php"); //Establishing connection with our database */
 
@@ -32,6 +28,8 @@ if(mysqli_num_rows($result) == 1)
     echo "Incorrect username or password.";
 }
 
+
+$_SESSION['username'] = $user;
 ?>
 
 
