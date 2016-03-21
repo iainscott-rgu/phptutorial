@@ -9,9 +9,16 @@
 
 My Web Page...
 
-<?PHP
 
-$provisionedActivities = array("Specs","Drugs","Rock and Roll");
+ <?PHP
+
+       $provisionedActivities = array("Specs","Hugs","Rock and Roll");
+
+
+       foreach($provisionedActivities as $x) {
+           print "<p>$x</p>";
+       }
+       ?>");
 
 foreach($provisionedActivities as $x) {
     print "<p>$x</p>";
