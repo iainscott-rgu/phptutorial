@@ -13,11 +13,17 @@ session_start();
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
-
-
 </head>
 <body>
 <h1>What the...!!!</h1>
+
+<h2>Let's see who's signed up!!!!</h2>
+
+<?php
+
+
+
+?>
 
 </body>
 </html>
