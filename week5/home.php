@@ -23,7 +23,7 @@ session_start();
 
 include("connection.php");
 
-$sql="SELECT uid FROM users";
+$sql="SELECT * FROM users";
 
 $result=mysqli_query($db,$sql);
 
