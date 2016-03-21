@@ -2,7 +2,7 @@
 session_start();
 
     $user = $_SESSION['username'];
-    echo $user." is currently logged on";
+    echo $user;
 
 ?>
 
