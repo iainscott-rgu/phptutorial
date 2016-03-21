@@ -7,25 +7,25 @@ for($i=1; $i < 30; $i++){
 
     if($i % 2 == 0){
 
-        echo "Mugs";
+        echo "Mugs ";
         $y = 1;
     }
 
     if($i % 3 == 0){
 
-        echo "hugs";
+        echo "hugs ";
         $y = 1;
     }
 
     if($i % 4 == 0){
 
-        echo "tugs";
+        echo "tugs ";
         $y = 1;
     }
 
     if ($y != 1){
 
-        echo "NONE";
+        echo "NONE ";
     }
 
     echo "<p>";
