@@ -27,7 +27,14 @@ $sql="SELECT * FROM users";
 
 $result=mysqli_query($db,$sql);
 
-echo $result;
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "user: " . $row["username"]."<br>";
+    }
+} else {
+    echo "0 results";
+}
 
 ?>
 
