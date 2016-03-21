@@ -30,7 +30,7 @@ for($i=1; $i < ['uid']; $i++){
 }
 */
 foreach($st->fetchAll() as $row) {
-echo $st;
+echo $row;
 }
 
 ?>
