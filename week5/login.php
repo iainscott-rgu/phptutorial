@@ -30,6 +30,6 @@ if(mysqli_num_rows($result) == 1)
 ?>
 
 <form method="get" action="home.php">
-    <input type="hidden" name="username" value="username">
+    <input type="hidden" name="user" value="username">
     <input type="submit">
 </form>
