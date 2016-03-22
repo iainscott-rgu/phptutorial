@@ -25,7 +25,7 @@
     $result=mysqli_query($db,$sql);
     while($row=$result->fetch_array()){
 
-        echo "<p>".$row['marvelMovieID']." ".$row['title']." ".$row['yearReased']." ".$row['productionStudio']." ".$row['notes'."<p>"];
+        echo "<p>".$row['marvelMovieID']." ".$row['title']." ".$row['yearReleased']." ".$row['productionStudio']." ".$row['notes'."<p>"];
     }
 
     ?>
