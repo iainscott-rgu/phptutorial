@@ -11,3 +11,5 @@ while($row=$result->fetch_array()){
 
     echo "<p>".$row['marvelMovieID']." ".$row['title']." ".$row['productionStudio']." ".$row{'notes'};
 }
+
+?>
