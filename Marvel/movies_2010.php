@@ -1,8 +1,10 @@
+All movies created after 2010...
+
 <?php
 
 include ("connection.php");
 
-$sql="SELECT * FROM marvelmovies WHERE yearReleased = >2009";
+$sql="SELECT * FROM marvelmovies WHERE yearReleased > 2009";
 
 $result=mysqli_query($db,$sql);
 while($row=$result->fetch_array()){
