@@ -9,7 +9,7 @@ $sql="SELECT * FROM marvelmovies WHERE productionStudio = 'Marvel Studios'";
 $result=mysqli_query($db,$sql);
 while($row=$result->fetch_array()){
 
-    echo "<p>".$row['marvelMovieID']." ".$row['title']." ".$row['productionStudio']." ".$row{'notes'};
+    echo "<p>".$row['marvelMovieID']." ".$row['title']." ".$row['yearReleased']." ".$row['productionStudio']." ".$row{'notes'}."</p>";
 }
 
 ?>
