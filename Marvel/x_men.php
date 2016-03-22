@@ -20,7 +20,7 @@
 
     include ("connection.php");
 
-    $sql="SELECT * FROM marvelmovies WHERE title = 'X-Men'%";
+    $sql="SELECT * FROM marvelmovies WHERE title LIKE 'X-Men%'";
 
     $result=mysqli_query($db,$sql);
     while($row=$result->fetch_array()){
