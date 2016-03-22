@@ -2,7 +2,7 @@
 
 include ("connection.php");
 
-$spl="SELECT * FROM marvelmovies";
+$sql="SELECT * FROM marvelmovies";
 
 $result=mysqli_query($db,$sql);
 while($row = $result->fetch_assoc())
