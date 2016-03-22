@@ -4,7 +4,7 @@ Only the Marvel Movies...
 
 include ("connection.php");
 
-$sql="SELECT * FROM marvelmovies";
+$sql="SELECT * FROM marvelmovies WHERE ['productionStudio'] = Marvel Studios";
 
 $result=mysqli_query($db,$sql);
 while($row=$result->fetch_array()){
